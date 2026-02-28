@@ -427,6 +427,7 @@ a {
   }
   /*boardRight*/
   .boardRight {
+    height: 80%;
     justify-content: space-between;
   }
   .boardRight input {
@@ -449,6 +450,11 @@ a {
     border: none;
     padding: 3%;
     box-sizing: border-box;
+  }
+  input::placeholder,
+  textarea::placeholder {
+    color: #666;
+    font-size: 1.5vw;
   }
   .boardRight button {
     height: 15%;
@@ -937,6 +943,11 @@ a {
     border: none;
     padding: 3%;
     box-sizing: border-box;
+  }
+  input::placeholder,
+  textarea::placeholder {
+    color: #666;
+    font-size: 2vw;
   }
   .boardRight button {
     height: 10%;
@@ -1429,6 +1440,11 @@ a {
     border: none;
     padding: 2%;
     box-sizing: border-box;
+  }
+  input::placeholder,
+  textarea::placeholder {
+    color: #666;
+    font-size: 2.5vw;
   }
   .boardRight button {
     height: 10%;
