@@ -2,6 +2,16 @@
   margin: 0px;
   padding: 0px;
 }
+@font-face {
+  font-family: "KotraGothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/KOTRA_GOTHIC.woff")
+    format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+body {
+  font-family: "KotraGothic", sans-serif;
+}
 ul {
   list-style: none;
 }
